@@ -1,0 +1,5 @@
+.env
+logs
+input
+output
+config.py
