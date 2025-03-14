@@ -11,6 +11,7 @@ import config
 import argparse
 
 logger = logging.getLogger(__name__)
+env_path = os.path.join(os.path.expanduser("~"), ".env")
 load_dotenv()
 
 class Foxpass:
